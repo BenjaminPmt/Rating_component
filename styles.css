@@ -34,9 +34,13 @@ body{
     width: 32px;
     height: 32px;
     background-image: url("./img/close\ button.png");
+    transition: transform 0.2s ease-in;
+
 }
 .img_btn:hover{
     background-image: url('./img/btn_hover.png');
+    transform: scale(1.2);
+
 }
 .question{
     font-weight: 600;
@@ -60,6 +64,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 .star_group{
     width: 240px;
@@ -72,9 +77,15 @@ body{
     width: 48px;
     height: 48px;
     border-radius: 40px;
-    padding: 8px;
     gap: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.star{
+    transition: transform 0.2s ease-in;
+    
+}
+.star:hover{
+    transform: scale(1.4);
 }
